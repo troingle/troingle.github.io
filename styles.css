@@ -30,3 +30,27 @@ body {
     color: #ffffff;
     transition: opacity 0.5s ease-in-out;
 }
+
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+.link-text {
+    font-weight: normal;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.link-text:hover {
+	font-weight: normal;
+    font-size: 30px;
+    color: hwb(210 6% 47%);
+    animation: rainbow 1s linear infinite;
+}
