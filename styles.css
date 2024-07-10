@@ -51,6 +51,6 @@ body {
 .link-text:hover {
 	font-weight: normal;
     font-size: 30px;
-    color: hwb(210 6% 47%);
-    animation: rainbow 1s linear infinite;
+    color: #ffffff;
+    animation: rainbow 1.5s linear infinite;
 }
