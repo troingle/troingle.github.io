@@ -14,7 +14,12 @@ body {
 	font-weight: normal;
     font-size: 30px;
     color: #ffffff;
-    transition: opacity 0.5s ease-in-out;
+}
+
+.larger-text {
+	font-weight: normal;
+    font-size: 35px;
+    color: #ffffff;
 }
 
 .title-text {
