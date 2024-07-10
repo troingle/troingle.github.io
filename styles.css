@@ -9,7 +9,6 @@ body {
 }
 
 .link-text {
-    font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
     font-size: 30px;
     color: #ffffff;
@@ -17,7 +16,6 @@ body {
 }
 
 .title-text {
-    font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
     font-size: 55px;
     color: #ffffff;
