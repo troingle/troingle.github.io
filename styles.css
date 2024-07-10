@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-.link-text {
+.regular-text {
 	font-weight: normal;
     font-size: 30px;
     color: #ffffff;
@@ -20,6 +20,13 @@ body {
 .title-text {
 	font-weight: normal;
     font-size: 55px;
+    color: #ffffff;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.link-text {
+	font-weight: normal;
+    font-size: 30px;
     color: #ffffff;
     transition: opacity 0.5s ease-in-out;
 }
