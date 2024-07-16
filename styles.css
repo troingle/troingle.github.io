@@ -10,6 +10,10 @@ a {
     color: #cca39e;
 }
 
+p {
+    color: #cca39e;
+}
+
 .container {
     text-align: center;
 }
@@ -27,12 +31,13 @@ a {
 .title-text {
 	font-weight: normal;
     font-size: 55px;
+    color: #ba5044;
 }
 
 .link-text {
 	font-weight: normal;
     font-size: 30px;
-    color: #ffffff;
+    color: #ba5044;
 }
 
 @keyframes rainbow {
