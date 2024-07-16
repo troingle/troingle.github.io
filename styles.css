@@ -42,6 +42,7 @@ p {
 @keyframes rainbow {
     0% { color: #cca39e; }
     50% { color: #ba5044; }
+    100% { color: #cca39e; }
 }
 
 .link-text {
