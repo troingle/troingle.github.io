@@ -1,9 +1,13 @@
 body {
-	background-color: #000000;
+	background-color: #0a041e;
     margin: 0;
     overflow: hidden;
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
+}
+
+a {
+    color: #cca39e;
 }
 
 .container {
@@ -13,27 +17,22 @@ body {
 .regular-text {
 	font-weight: normal;
     font-size: 30px;
-    color: #ffffff;
 }
 
 .larger-text {
 	font-weight: normal;
     font-size: 32px;
-    color: #ffffff;
 }
 
 .title-text {
 	font-weight: normal;
     font-size: 55px;
-    color: #ffffff;
-    transition: opacity 0.5s ease-in-out;
 }
 
 .link-text {
 	font-weight: normal;
     font-size: 30px;
     color: #ffffff;
-    transition: opacity 0.5s ease-in-out;
 }
 
 @keyframes rainbow {
@@ -50,14 +49,12 @@ body {
 .link-text {
     font-weight: normal;
     font-size: 30px;
-    color: #ffffff;
     text-decoration: none;
 }
 
 .link-text:hover {
 	font-weight: normal;
     font-size: 30px;
-    color: #ffffff;
     animation: rainbow 1.5s linear infinite;
     text-decoration: none;
 }
