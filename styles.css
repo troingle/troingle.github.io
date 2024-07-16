@@ -23,6 +23,10 @@ p {
     height: 100%;
 }
 
+.content {
+    max-width: 600px;
+}
+
 .regular-text {
 	font-weight: normal;
     font-size: 30px;
