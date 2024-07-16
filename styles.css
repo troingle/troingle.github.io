@@ -1,12 +1,10 @@
-html, body {
+body {
 	background-color: #0a041e;
     height: 100%;
     margin: 0;
     overflow: hidden;
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
-    display: grid;
-    place-items: center;
 }
 
 a {
@@ -18,10 +16,11 @@ p {
 }
 
 .container {
-    display: grid;
-    place-items: center;
-    height: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .content {
