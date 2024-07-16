@@ -16,11 +16,10 @@ p {
 }
 
 .container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     height: 100%;
+    text-align: center;
 }
 
 .content {
