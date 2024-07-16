@@ -55,7 +55,7 @@ p {
 .link-text:hover {
 	font-weight: normal;
     font-size: 30px;
-    animation: rainbow 0.5s linear infinite;
+    animation: rainbow 1s linear infinite;
     text-decoration: none;
 }
 
