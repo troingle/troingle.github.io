@@ -1,10 +1,12 @@
-body {
+html, body {
 	background-color: #0a041e;
     height: 100%;
     margin: 0;
     overflow: hidden;
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
+    display: grid;
+    place-items: center;
 }
 
 a {
