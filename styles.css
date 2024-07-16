@@ -31,7 +31,7 @@ p {
 .title-text {
 	font-weight: normal;
     font-size: 55px;
-    color: #ba5044;
+    color: #cca39e;
 }
 
 .link-text {
@@ -48,12 +48,13 @@ p {
     font-weight: normal;
     font-size: 30px;
     text-decoration: none;
+    color: #ba5044;
 }
 
 .link-text:hover {
 	font-weight: normal;
     font-size: 30px;
-    animation: rainbow 1.5s linear infinite;
+    animation: rainbow 0.5s linear infinite;
     text-decoration: none;
 }
 
