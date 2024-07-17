@@ -74,3 +74,8 @@ p {
     background-color: transparent;
 }
 
+
+.img {
+    filter: brightness(0) saturate(100%) invert(93%) sepia(9%) saturate(459%) hue-rotate(314deg) brightness(94%) contrast(87%);
+}
+
