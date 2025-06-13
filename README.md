@@ -1,2 +1,2 @@
 # troingle.github.io
-Personal website, WIP
+Github Pages website
