@@ -38,3 +38,27 @@ function wiggle(text) {
     loop++;
   }, 300);
 }
+
+
+
+crazyCaps();
+
+function crazyCaps() {
+    let crazyItems = document.querySelectorAll(".crazy");
+    for (let i = 0; i < crazyItems.length; i++) {
+      let crazyTextItem = crazyItems[i];
+      
+      let cnt = 0;
+      setInterval(() => {
+        let newText = crazyTextItem.textContent.substring(0, cnt).toLowerCase() + crazyTextItem.textContent[cnt].toUpperCase() + crazyTextItem.textContent.substring(cnt + 1, crazyTextItem.textContent.length).toLowerCase();
+        crazyTextItem.textContent = newText;
+
+        cnt += 1;
+
+        if (cnt > crazyTextItem.textContent.length - 1) {
+          cnt = 0;
+        }
+
+      }, 150  );
+    }
+  }
