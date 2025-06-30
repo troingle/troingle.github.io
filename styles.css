@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'customf';
+  src: url('fonts/Cascadia.ttf') format('truetype');
+}
+
+body {
+    background-color: #979bc7;
+    color: #fae6cd;
+
+    position: absolute;
+    top: 42%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    line-height: 13px;
+    font-family: "customf", sans-serif;
+    font-style: italic;
+    font-size: 17px;
+}
+
+a {
+    color:#f3c0ce;
+}
+
+::-moz-selection {
+  color: #979bc7;
+  background: #f3c0ce;
+}
+
+::selection {
+  color: #979bc7;
+  background: #f3c0ce;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  color: #f3c0ce;
+  margin-left: 300px;
+}
