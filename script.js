@@ -1,4 +1,4 @@
-var dark = false;
+var dark = true;
 
 document.addEventListener("DOMContentLoaded", function() {
   const button = document.getElementById("theme");
@@ -22,4 +22,5 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("theme").style.color = "#f3c0ce";
     }
   });
+
 });
